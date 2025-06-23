@@ -32,7 +32,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class CreateSessionClient {
-    static final DateTimeFormatter REQUEST_DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern("yyyyMMdd'T'hhmmss'Z'");
+    static final DateTimeFormatter REQUEST_DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern("yyyyMMdd'T'HHmmss'Z'");
     static final DateTimeFormatter REQUEST_DATE_FORMATTER = DateTimeFormatter.ofPattern("yyyyMMdd");
 
     private static final Log log = LogFactory.getLog(CreateSessionClient.class);
